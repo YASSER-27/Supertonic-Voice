@@ -1,0 +1,49 @@
+#supertonic-notification {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2147483647;
+  background: #151515;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,99,99,0.2);
+  animation: supertonic-slide-in 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #2a2a2a;
+}
+
+#supertonic-notification span {
+  flex: 1;
+}
+
+#supertonic-stop-btn {
+  background: #FF6363;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#supertonic-stop-btn:hover {
+  background: #CC4F4F;
+}
+
+@keyframes supertonic-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

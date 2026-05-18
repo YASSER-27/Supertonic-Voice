@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 280px;
+      background: #151515;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .header h1 {
+      font-size: 15px;
+      color: #FF6363;
+      font-weight: 700;
+    }
+    .header .icon { font-size: 22px; }
+    .desc {
+      color: #888;
+      font-size: 12px;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .instructions {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 14px;
+      border: 1px solid #2a2a2a;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .step:last-child { margin-bottom: 0; }
+    .step-num {
+      background: #FF6363;
+      color: white;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .step-text {
+      font-size: 12px;
+      color: #ccc;
+      line-height: 1.4;
+    }
+    .step-text strong { color: #FF6363; }
+    .footer {
+      margin-top: 14px;
+      text-align: center;
+      font-size: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="icon">🎙</span>
+    <h1>Supertonic Voice</h1>
+  </div>
+  <p class="desc">Select any text on any webpage, then right-click to convert it to speech.</p>
+  <div class="instructions">
+    <div class="step">
+      <span class="step-num">1</span>
+      <span class="step-text">Select text on any page</span>
+    </div>
+    <div class="step">
+      <span class="step-num">2</span>
+      <span class="step-text">Right-click → <strong>Play with Supertonic</strong> for instant playback</span>
+    </div>
+    <div class="step">
+      <span class="step-num">3</span>
+      <span class="step-text">Right-click → <strong>Send to Supertonic</strong> to create a voice message in the app</span>
+    </div>
+  </div>
+  <div class="footer">Supertonic Voice v1.0</div>
+</body>
+</html>
