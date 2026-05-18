@@ -45,7 +45,7 @@ It seamlessly integrates a modern chat interface, a high-speed bilingual autocom
 
 #### 1. Clone & Navigate to Folder
 ```bash
-git clone https://github.com/yasser-27/supertonic-voice.git
+git clone https://github.com/YASSER-27/Supertonic-Voice.git
 cd supertonic-voice
 ```
 
@@ -76,7 +76,7 @@ python main.py
 
 Created and engineered with passion by **Yasser (yasser-27)**:
 * **GitHub**: [@yasser-27](https://github.com/yasser-27)
-* **Project Repository**: [Supertonic Voice Repository](https://github.com/yasser-27)
+* **Download**: [Supertonic Voice Download](https://github.com/YASSER-27/Supertonic-Voice/releases)
 
 ---
 
